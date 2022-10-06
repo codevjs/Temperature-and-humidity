@@ -1,0 +1,7 @@
+{
+  "name": "dht11 monitoring",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

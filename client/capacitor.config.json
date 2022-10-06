@@ -1,0 +1,8 @@
+{
+  "appId": "com.orderin.mqttclient",
+  "appName": "dht11 monitoring",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

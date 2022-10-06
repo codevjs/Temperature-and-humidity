@@ -1,0 +1,41 @@
+esphome:
+  name: dht11
+
+sensor:
+  - platform: dht
+    pin: D4
+    temperature:
+      name: "Temperature"
+    humidity:
+      name: "Humidity"
+    update_interval: 3s
+
+# Example configuration entry
+mqtt:
+  broker: 36.89.54.125
+  port  : 1883
+
+esp8266:
+  board: d1_mini
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "Morbius"
+  password: "CAPSLOCK"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Dht11 Fallback Hotspot"
+    password: "12345678"
+
+captive_portal:
+    

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400;500;700;800&display=swap');
+
+body {
+  background: linear-gradient(to bottom right, #dbe4f1 20%, #8ea0d5 100%);
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+div.container {
+  max-width: 480px !important;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 20px 15px;
+  background: #ffffff;
+  overflow: auto;
+}
+
+.circle-track {
+  width: 250px;
+  height: 250px;
+  background: conic-gradient(from -45deg at center, #5bdafb 0%, #f3a297 15%, #f3a297 40%, #ada7e6 60%, #8285ef 80%, #5bdafb 100%);
+  box-shadow: 0 20px 25px 0px rgba(0,0,0,0.15);
+}
+
+.circle-progress {
+  width: 250px;
+  height: 250px;
+  /*background: conic-gradient(from -45deg at center, rgba(255,255,255,0.5) 0%, transparent 100%);*/
+}
+
+.circle-inner {
+  width: 210px;
+  height: 210px;
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.15);
+}
+
+.pointer {
+  transform: rotate(225deg) translateX(90px);
+}
+
+.power-bg {
+  border-radius: 50px;
+  background: linear-gradient(to top right, #9bace4, #fff);
+}
+
+.app-color-black {
+  color: #0E171D;
+}
+
+.app-color-purple {
+  color: #ADAAE7;
+}
+
+.app-color-blue {
+  color: #7F80E5;
+}
+
+.app-color-red {
+  color: #E1B5C6;
+}
+
+.app-font-sm {
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.app-font-md {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.app-bg-color-black {
+  background-color: #0E171D;
+}
+
+.app-shadow {
+  box-shadow: 0 15px 25px 0px rgb(0 0 0 / 10%);
+}

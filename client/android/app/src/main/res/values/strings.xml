@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">dht11 monitoring</string>
+    <string name="title_activity_main">dht11 monitoring</string>
+    <string name="package_name">com.orderin.mqttclient</string>
+    <string name="custom_url_scheme">com.orderin.mqttclient</string>
+</resources>
